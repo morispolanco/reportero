@@ -13,7 +13,7 @@ def main():
     }
 
     # Entrada de texto del usuario
-    input_text = st.text_input("Ingrese los datos de la nooticia", "Example text")
+    input_text = st.text_input("Ingrese los datos de la noticia", "accidente, ruta al Pacífico, tres fallecidos...")
 
     if st.button("Enviar"):
         # Crear el cuerpo de la solicitud
